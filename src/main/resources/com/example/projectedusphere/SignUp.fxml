@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1200.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" styleClass="signUpScreen" stylesheets="@SignUp.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SignUpController">
+   <right>
+      <AnchorPane prefHeight="680.0" prefWidth="475.0" styleClass="signUpRight" stylesheets="@SignUp.css" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="99.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="signUpScreenRightText" text="Sign Up and Efficient Your Studies" textAlignment="CENTER" wrappingWidth="289.6708984375" />
+            <ImageView fx:id="exit" fitHeight="50.0" fitWidth="45.0" layoutX="430.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Exit.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </right>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="signupLeft" stylesheets="@SignUp.css" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="signupusername" layoutX="96.0" layoutY="245.0" prefHeight="37.0" prefWidth="507.0" promptText="Username" styleClass="signUpScreenInput" stylesheets="@SignUp.css">
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="signuppassword" layoutX="96.0" layoutY="360.0" prefHeight="37.0" prefWidth="507.0" promptText="Password" styleClass="signUpScreenInput" stylesheets="@SignUp.css">
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="signupemail" layoutX="96.0" layoutY="303.0" prefHeight="37.0" prefWidth="507.0" promptText="Email" styleClass="signUpScreenInput" stylesheets="@SignUp.css">
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="signuproll" layoutX="96.0" layoutY="416.0" prefHeight="37.0" prefWidth="245.0" promptText="Roll" styleClass="signUpScreenInput" stylesheets="@SignUp.css">
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <TextField fx:id="signupregistration" layoutX="358.0" layoutY="416.0" prefHeight="37.0" prefWidth="245.0" promptText="Rgistration" styleClass="signUpScreenInput" stylesheets="@SignUp.css">
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <Button fx:id="signupmainbutton" layoutX="252.0" layoutY="483.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="188.0" styleClass="signUpButton" stylesheets="@SignUp.css" text="Sign Up" textFill="#ececec" />
+            <ImageView fitHeight="231.0" fitWidth="282.0" layoutX="239.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Logo.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </ImageView>
+            <Text layoutX="215.0" layoutY="571.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Already Have an Account?">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="signuploginbutton" layoutX="435.0" layoutY="549.0" mnemonicParsing="false" style="-fx-background-color: none; -fx-background-radius: 50; -fx-border-radius: 50;" text="Log In" textFill="#4031a1">
+               <font>
+                  <Font name="Times New Roman" size="17.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

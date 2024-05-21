@@ -1,0 +1,31 @@
+.signUpRight{
+    -fx-background-color: linear-gradient(to bottom, #018D5E, #F9F9F9);
+}
+.signupLeft{
+    -fx-background-color: linear-gradient(to bottom, #02A388, #F9F9F9);
+}
+.signUpScreenRightText{
+    -fx-font-size:64px;
+    -fx-font-family:'Impact';
+    -fx-fill:#443949;
+    -fx-line-spacing:-5px;
+}
+
+.signUpScreenInput{
+    -fx-background-color:#E3E3E3;
+    -fx-background-radius:50px;
+    -fx-border-radius:50px;
+    -fx-padding-left:20px;
+    -fx-cursor:text;
+}
+
+.signUpButton{
+    -fx-font-size:16px;
+    -font-family:'Times New Roman';
+    -fx-text-fill:#ECECEC;
+    -fx-background-radius:50px;
+    -fx-border-radius:50px;
+    -fx-padding-left:20px;
+    -fx-cursor:hand;
+    -fx-background-color: linear-gradient(to top, #6D01Af, #8459F2);
+}

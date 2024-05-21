@@ -1,0 +1,59 @@
+.background_color{
+    -fx-background-color: linear-gradient(to top, #83EAF1, #63A4FF);
+}
+
+.background_color_right{
+    -fx-background-color: linear-gradient(to left, #02A388, #F9F9F9);
+}
+
+
+.greenButton
+{
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6,5;
+    -fx-background-insets: 0,1;
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0.0, 0, 1);
+    -fx-text-fill: #395306;
+}
+
+.greenButton:hover
+{
+    -fx-background-color:
+            linear-gradient(#a9ff00,#f0ff35),
+            radial-gradient(center 50% -40%, radius 200%, #80c800 45%, #b8ee36 50%);
+    -fx-background-radius: 6,5;
+    -fx-background-insets: 0,1;
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0.0, 0, 1);
+    -fx-text-fill: #395306;
+
+}
+
+
+.greenButton2
+{
+    -fx-background-color:
+            linear-gradient(#f0ff35,#a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6,5;
+    -fx-background-insets: 0,1;
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0.0, 0, 1);
+    -fx-text-fill: #000000;
+}
+
+.greenButton2:hover
+{
+    -fx-background-color:
+            linear-gradient(#a9ff00,#f0ff35),
+            radial-gradient(center 50% -40%, radius 200%, #80c800 45%, #b8ee36 50%);
+    -fx-background-radius: 6,5;
+    -fx-background-insets: 0,1;
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0.0, 0, 1);
+    -fx-text-fill: #395306;
+
+}
